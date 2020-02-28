@@ -3,17 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		004FCE2E2401D7FA00A5FA27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004FCE2D2401D7FA00A5FA27 /* AppDelegate.swift */; };
 		004FCE302401D7FA00A5FA27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004FCE2F2401D7FA00A5FA27 /* SceneDelegate.swift */; };
-		004FCE322401D7FA00A5FA27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004FCE312401D7FA00A5FA27 /* ViewController.swift */; };
 		004FCE352401D7FA00A5FA27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004FCE332401D7FA00A5FA27 /* Main.storyboard */; };
 		004FCE382401D7FA00A5FA27 /* Socials.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 004FCE362401D7FA00A5FA27 /* Socials.xcdatamodeld */; };
 		004FCE3A2401D7FC00A5FA27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004FCE392401D7FC00A5FA27 /* Assets.xcassets */; };
 		004FCE3D2401D7FC00A5FA27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004FCE3B2401D7FC00A5FA27 /* LaunchScreen.storyboard */; };
+		00563C702409AD650039CE50 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00563C6F2409AD650039CE50 /* SignupViewController.swift */; };
+		00563C722409AD720039CE50 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00563C712409AD720039CE50 /* FeedViewController.swift */; };
+		00563C742409AD7A0039CE50 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00563C732409AD7A0039CE50 /* DetailViewController.swift */; };
+		00563C762409AD830039CE50 /* NewSocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00563C752409AD830039CE50 /* NewSocialViewController.swift */; };
+		00563C782409B4490039CE50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00563C772409B4490039CE50 /* GoogleService-Info.plist */; };
+		00563C7A2409B7D70039CE50 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00563C792409B7D70039CE50 /* LoginViewController.swift */; };
+		00563C802409C5430039CE50 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00563C7F2409C5430039CE50 /* FeedCell.swift */; };
+		00563C822409C6700039CE50 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00563C812409C6700039CE50 /* Feed.swift */; };
 		3E592FCEB7B294B2A31E5B02 /* Pods_Socials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4BF64DC5158CCE4907C526 /* Pods_Socials.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +28,19 @@
 		004FCE2A2401D7FA00A5FA27 /* Socials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Socials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		004FCE2D2401D7FA00A5FA27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		004FCE2F2401D7FA00A5FA27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		004FCE312401D7FA00A5FA27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		004FCE342401D7FA00A5FA27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		004FCE372401D7FA00A5FA27 /* Socials.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Socials.xcdatamodel; sourceTree = "<group>"; };
 		004FCE392401D7FC00A5FA27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		004FCE3C2401D7FC00A5FA27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		004FCE3E2401D7FC00A5FA27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00563C6F2409AD650039CE50 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		00563C712409AD720039CE50 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		00563C732409AD7A0039CE50 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		00563C752409AD830039CE50 /* NewSocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSocialViewController.swift; sourceTree = "<group>"; };
+		00563C772409B4490039CE50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00563C792409B7D70039CE50 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		00563C7F2409C5430039CE50 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		00563C812409C6700039CE50 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		C636F2ACA09504F6E7EBA8AD /* Pods-Socials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Socials.debug.xcconfig"; path = "Target Support Files/Pods-Socials/Pods-Socials.debug.xcconfig"; sourceTree = "<group>"; };
 		CC4BF64DC5158CCE4907C526 /* Pods_Socials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Socials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB6F6BDBD8EAA11A11CBD9A /* Pods-Socials.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Socials.release.xcconfig"; path = "Target Support Files/Pods-Socials/Pods-Socials.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,16 +79,47 @@
 		004FCE2C2401D7FA00A5FA27 /* Socials */ = {
 			isa = PBXGroup;
 			children = (
+				00563C6C2409ACF70039CE50 /* Model */,
 				004FCE2D2401D7FA00A5FA27 /* AppDelegate.swift */,
 				004FCE2F2401D7FA00A5FA27 /* SceneDelegate.swift */,
-				004FCE312401D7FA00A5FA27 /* ViewController.swift */,
-				004FCE332401D7FA00A5FA27 /* Main.storyboard */,
-				004FCE392401D7FC00A5FA27 /* Assets.xcassets */,
-				004FCE3B2401D7FC00A5FA27 /* LaunchScreen.storyboard */,
-				004FCE3E2401D7FC00A5FA27 /* Info.plist */,
+				00563C6D2409AD000039CE50 /* View */,
+				00563C6E2409AD040039CE50 /* Controller */,
 				004FCE362401D7FA00A5FA27 /* Socials.xcdatamodeld */,
+				004FCE392401D7FC00A5FA27 /* Assets.xcassets */,
+				004FCE3E2401D7FC00A5FA27 /* Info.plist */,
+				00563C772409B4490039CE50 /* GoogleService-Info.plist */,
 			);
 			path = Socials;
+			sourceTree = "<group>";
+		};
+		00563C6C2409ACF70039CE50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00563C812409C6700039CE50 /* Feed.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00563C6D2409AD000039CE50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				004FCE332401D7FA00A5FA27 /* Main.storyboard */,
+				004FCE3B2401D7FC00A5FA27 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00563C6E2409AD040039CE50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00563C792409B7D70039CE50 /* LoginViewController.swift */,
+				00563C6F2409AD650039CE50 /* SignupViewController.swift */,
+				00563C712409AD720039CE50 /* FeedViewController.swift */,
+				00563C732409AD7A0039CE50 /* DetailViewController.swift */,
+				00563C752409AD830039CE50 /* NewSocialViewController.swift */,
+				00563C7F2409C5430039CE50 /* FeedCell.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		7A575A327F53EA1FA5B7E6CF /* Frameworks */ = {
@@ -91,7 +136,6 @@
 				C636F2ACA09504F6E7EBA8AD /* Pods-Socials.debug.xcconfig */,
 				CDB6F6BDBD8EAA11A11CBD9A /* Pods-Socials.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				004FCE3D2401D7FC00A5FA27 /* LaunchScreen.storyboard in Resources */,
+				00563C782409B4490039CE50 /* GoogleService-Info.plist in Resources */,
 				004FCE3A2401D7FC00A5FA27 /* Assets.xcassets in Resources */,
 				004FCE352401D7FA00A5FA27 /* Main.storyboard in Resources */,
 			);
@@ -210,10 +255,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				004FCE322401D7FA00A5FA27 /* ViewController.swift in Sources */,
+				00563C702409AD650039CE50 /* SignupViewController.swift in Sources */,
+				00563C802409C5430039CE50 /* FeedCell.swift in Sources */,
 				004FCE2E2401D7FA00A5FA27 /* AppDelegate.swift in Sources */,
 				004FCE382401D7FA00A5FA27 /* Socials.xcdatamodeld in Sources */,
+				00563C822409C6700039CE50 /* Feed.swift in Sources */,
+				00563C762409AD830039CE50 /* NewSocialViewController.swift in Sources */,
+				00563C7A2409B7D70039CE50 /* LoginViewController.swift in Sources */,
 				004FCE302401D7FA00A5FA27 /* SceneDelegate.swift in Sources */,
+				00563C722409AD720039CE50 /* FeedViewController.swift in Sources */,
+				00563C742409AD7A0039CE50 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
