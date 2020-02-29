@@ -21,6 +21,7 @@
 		00563C7A2409B7D70039CE50 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00563C792409B7D70039CE50 /* LoginViewController.swift */; };
 		00563C802409C5430039CE50 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00563C7F2409C5430039CE50 /* FeedCell.swift */; };
 		00563C822409C6700039CE50 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00563C812409C6700039CE50 /* Feed.swift */; };
+		00563C842409C9F90039CE50 /* FeedTableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00563C832409C9F90039CE50 /* FeedTableExtension.swift */; };
 		3E592FCEB7B294B2A31E5B02 /* Pods_Socials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4BF64DC5158CCE4907C526 /* Pods_Socials.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		00563C792409B7D70039CE50 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		00563C7F2409C5430039CE50 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		00563C812409C6700039CE50 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		00563C832409C9F90039CE50 /* FeedTableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableExtension.swift; sourceTree = "<group>"; };
 		C636F2ACA09504F6E7EBA8AD /* Pods-Socials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Socials.debug.xcconfig"; path = "Target Support Files/Pods-Socials/Pods-Socials.debug.xcconfig"; sourceTree = "<group>"; };
 		CC4BF64DC5158CCE4907C526 /* Pods_Socials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Socials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB6F6BDBD8EAA11A11CBD9A /* Pods-Socials.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Socials.release.xcconfig"; path = "Target Support Files/Pods-Socials/Pods-Socials.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +60,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002528262409F9FE00CA6C90 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				00563C712409AD720039CE50 /* FeedViewController.swift */,
+				00563C832409C9F90039CE50 /* FeedTableExtension.swift */,
+				00563C7F2409C5430039CE50 /* FeedCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 		004FCE212401D7FA00A5FA27 = {
 			isa = PBXGroup;
 			children = (
@@ -112,12 +124,11 @@
 		00563C6E2409AD040039CE50 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				002528262409F9FE00CA6C90 /* Feed */,
+				00563C732409AD7A0039CE50 /* DetailViewController.swift */,
 				00563C792409B7D70039CE50 /* LoginViewController.swift */,
 				00563C6F2409AD650039CE50 /* SignupViewController.swift */,
-				00563C712409AD720039CE50 /* FeedViewController.swift */,
-				00563C732409AD7A0039CE50 /* DetailViewController.swift */,
 				00563C752409AD830039CE50 /* NewSocialViewController.swift */,
-				00563C7F2409C5430039CE50 /* FeedCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +271,7 @@
 				004FCE2E2401D7FA00A5FA27 /* AppDelegate.swift in Sources */,
 				004FCE382401D7FA00A5FA27 /* Socials.xcdatamodeld in Sources */,
 				00563C822409C6700039CE50 /* Feed.swift in Sources */,
+				00563C842409C9F90039CE50 /* FeedTableExtension.swift in Sources */,
 				00563C762409AD830039CE50 /* NewSocialViewController.swift in Sources */,
 				00563C7A2409B7D70039CE50 /* LoginViewController.swift in Sources */,
 				004FCE302401D7FA00A5FA27 /* SceneDelegate.swift in Sources */,

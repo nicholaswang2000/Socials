@@ -11,6 +11,9 @@ import UIKit
 class FeedCell: UITableViewCell {
 
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var posterLabel: UILabel!
+    @IBOutlet weak var numInterested: UILabel!
+    @IBOutlet weak var imageThisLmao: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

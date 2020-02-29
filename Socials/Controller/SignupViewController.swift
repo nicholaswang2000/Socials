@@ -50,7 +50,6 @@ class SignupViewController: UIViewController {
             let db = Database.database().reference()        // gets database reference
             let usersNode = db.child("Users")               // get into the Users folder
             guard let newUserId = usersNode.childByAutoId().key else {       // references the new node
-                print("Hello")
                 return
             }
             let userNode = usersNode.child(newUserId)
@@ -73,9 +72,4 @@ class SignupViewController: UIViewController {
         handleRegister()
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-
 }
