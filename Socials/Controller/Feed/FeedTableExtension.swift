@@ -18,7 +18,7 @@ extension FeedViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let index = indexPath.row
-        let cell = tableView.dequeueReusableCell(withIdentifier: "feedCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FeedCell", for: indexPath)
             as! FeedCell
         
         cell.nameLabel.text = "Name: \(feedList[index].eventName)"

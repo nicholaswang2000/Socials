@@ -14,7 +14,7 @@ class FeedCell: UITableViewCell {
     @IBOutlet weak var posterLabel: UILabel!
     @IBOutlet weak var numInterested: UILabel!
     @IBOutlet weak var imageThisLmao: UIImageView!
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -27,3 +27,4 @@ class FeedCell: UITableViewCell {
     }
 
 }
+

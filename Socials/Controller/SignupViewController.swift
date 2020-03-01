@@ -16,6 +16,8 @@ class SignupViewController: UIViewController {
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     
+    var fullName: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -58,6 +60,7 @@ class SignupViewController: UIViewController {
             // 3. Segue to Login
             self.performSegue(withIdentifier: "signupToFeed", sender: self)
         }
+        fullName = fullname
         
     }
     
@@ -72,4 +75,8 @@ class SignupViewController: UIViewController {
         handleRegister()
     }
     
-}
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destinationVC = segue.destination as? FeedViewController, segue.identifier == "signupToFeed" {
+            destinationVC.fullName = fullName
+        }
+    }}

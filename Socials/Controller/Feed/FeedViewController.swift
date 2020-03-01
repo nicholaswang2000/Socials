@@ -13,13 +13,14 @@ class FeedViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
+    var fullName: String!
     var feedList: [Feed] = []
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupEventsList()
         setupNavigationBar()
+        tableView.layer.backgroundColor = UIColor.clear.cgColor
 
         // Do any additional setup after loading the view.
     }
